@@ -1,0 +1,184 @@
+$color1:#0278B8;
+body{
+    font-family: "Hind Guntur",sans-serif;
+header{
+    margin: -1vh -2vh 0 2vh;
+    display: flex;
+    color: ghostwhite;
+    background-color: #0278B8;
+    height: 13vh;
+    padding: 3vh;
+    .logo{
+        margin-left: 2vh;
+        margin-top: 1.1vh;
+        height: fit-content;
+        width: fit-content;
+        img{
+            height: 11vh;
+            width: 8.9vw;
+
+        }
+    }
+    .namee{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20vw;
+        .schoolName{
+            margin-top: 1.6vh;
+            
+            font-size: 3.1rem;
+            padding: 0%;
+           
+        }
+        .tagline{
+            font-size: 1.2rem;
+            padding-left: 44.3vw;
+        }
+    }
+    
+}
+
+.firstBlock{
+    display: flex;
+    margin-top: 0vh;
+    
+    .about{
+        margin-top: 18vh;
+        margin-left: 4vh;
+        display: inline-block;
+        width: 62vw;
+        height: fit-content;
+        font-size:1.1rem ;
+        color: rgb(5, 78, 103);
+        border: 0.1px rgba(14, 27, 108, 0.456) solid;
+        border-radius: 35px;
+        padding: 2.7vw;
+
+            h2{
+                color:$color1 ;
+            }
+    }
+    .images{
+        display: flex;
+        flex-direction: column;
+        margin: 1.7vh 0 0 4.4vw;
+       img{
+        height: 35vh;
+        width: 48vh;
+        margin-top:2vh;
+        border-radius: 6px;
+       }
+       
+    }
+}
+.video{
+    display: flex;
+    align-items: center;
+     margin-top: 13vh;
+    iframe{
+        border-radius: 10px;
+        margin-left: 6vw;
+        height: 52vh;
+        width: 49vw;
+    }
+    .note{
+        margin-left: 14vw;
+        h1{
+            font-size: 4.5rem;
+            color: #0278B8;
+        }
+        
+    }
+}
+
+
+#secondBlock::before{
+    content: " ";
+    background-image: url('https://www.mvneducation.com/mvn-aravali/assets/images/mvn-edu-jul5-Aravalihills.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.83;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+#secondBlock{
+    position: sticky;
+    top: 0%;
+    height: 90vh;
+    margin-top: 20vh;
+    display: flex;
+    .facilities{
+        display: inline-block;
+        background-color:#0d4563;
+        border-radius: 20px;
+        color: ghostwhite;
+        font-weight: 640;
+        font-size: 1.3rem;
+        margin: 4.6vh 0 0 19vh;
+        padding: 1.2vh;
+        height: 77vh;
+        width: 30vw;
+    }
+    .form{
+        // background-color: white;
+        color: white;
+        text-shadow: 3px 2px rgb(7, 4, 36);
+        font-size: 1.5rem;
+        #signup{
+            margin-top: 13vh;
+            margin-left: 24vw;
+            .formss{
+                height: 34px;
+                width: 308px;
+                border: solid rgb(47, 115, 179) 4px;
+                font-family: 'Bree Serif', serif;
+                border-radius: 13px;
+                
+             }
+             input{
+                margin-bottom: 1.45vh;
+             }
+         }
+         
+    }
+    
+     
+}
+footer{
+    padding-top: 13vh;
+    position: absolute;
+    background-color: #dbe3e7;
+    width: 100%;
+    height: fit-content;
+    color: #0d4563;
+    .f{ display: flex;
+        .one{
+            width: 33%;
+            margin:2vh 0vw 5vh 10vw;
+        }
+        .two{
+            width: 33%;
+            margin:2vh 5vw 5vh 4vw;
+        }
+        .three{
+            width: 33%;
+        }
+    }
+    
+    
+    .copyright{
+        padding-top: 3vh;
+        text-align: center;
+        background-color: $color1;
+        width: 100%;
+        height: 11vh;
+        color: ghostwhite;
+        font-size: 1.1rem;
+    }
+}
+
+}
